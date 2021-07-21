@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="Content-Security-Policy: default-src 'self'; script-src 'self' '"
+    />
+    <link href="./css/index.css" rel="stylesheet" />
+
+    <title>Meeting Scheduler</title>
+    <link rel="icon" href="../Nigelrex.ico" />
+  </head>
+  <body>
+    <h1>Welcome to Meeting Scheduler!</h1>
+    <br />
+    <p>Have a tons of meetings to attend and have other works to do?</p>
+    <p>Schedule you meetings here and do your other stuff!</p>
+
+    <button class="right button">
+      <a href="./pages/meeting.html">Set Meetings</a>
+    </button>
+
+    <!-- You can also require other files to run in this process -->
+    <script src="./js/renderer.js"></script>
+  </body>
+</html>
