@@ -27,7 +27,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm i
-    - run: npm run build
+    - run: npm run make
     #- run: npm test
     - run: npm publish
       if: github.event == 'push'
